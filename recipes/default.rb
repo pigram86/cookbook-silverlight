@@ -18,7 +18,7 @@
 #
 # install silverlight x64
 windows_package "Silverlight x64" do
-  source "http://pigramsoftware.no-ip.biz/repo/Silverlight_x64.exe"
+  source node['silver']['url']
   options "/q"
   installer_type :custom
   action :install

@@ -16,4 +16,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-default[:silver][:url] = "https://dl.dropboxusercontent.com/u/36379525/Silverlight_x64.exe"
+default['silver']['url'] = "https://dl.dropboxusercontent.com/u/36379525/Silverlight_x64.exe"
